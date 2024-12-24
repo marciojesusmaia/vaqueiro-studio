@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+    color: #EB9F29;
+    
+}
+
+#principal{
+    width: 100vw;
+    height: 94vh;
+    text-align: center;
+}
+
+
+.sobre{
+    margin-top: 10%;
+    padding: 50px;
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 20px;
+    min-width: 320px;
+    max-width: 760px;
+    
+}
+h1{
+    padding: 20px;
+    font-size: 3em;
+}
+
+p{
+    font-size: 1.5em;
+}
+
+
+div > .pe{
+    margin-top: 10px;
+    font-size: x-small;
+    color: #EB9F29;
+}
+
+.imag{
+    display: inline;
+}
+
+img{
+    width: 30px;
+    height: 30px;
+}
+
+.quem{
+    margin-top: 18%;
+    margin-bottom: 10px;
+}
+
+.quem > a{
+    color: #EB9F29;
+    font-size: large;
+    text-decoration: none;
+    vertical-align: super;
+}
+
+a{
+    color: #EB9F29;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.contatos{
+    text-align: center;
+    margin-top: 50px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.content-contact{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+.content-contact a{
+    vertical-align: super;
+    text-decoration: none;
+    color: #EB9F29;
+}
+
+.content-contact img{
+    width: 30px;
+    height: 30px; 
+    border-radius: 50%;  
+}
+
+.voltar{
+    font-size: 1.5em;
+}
+
+.voltar:hover{
+    padding: 5px;
+    border-radius: 10%;
+    color: white;
+    text-shadow: 
+    0 0 10px #eba945,
+    0 0 20px #df9b37,
+    0 0 30px #eba236,
+    0 0 40px #EB9F29,
+    0 0 50px #f5a123;
+    transition: .2s;
+}
+
+#rodape{
+    text-align: center;
+    border-top: 1px solid #EB9F29;
+}
