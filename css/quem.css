@@ -32,10 +32,15 @@ h1{
     font-size: 3em;
 }
 
-p{
+.sobre p{
     font-size: 1.5em;
+    padding-bottom: 20px;
 }
 
+p{
+    font-size: 1.5em;
+    padding-bottom: 20px;
+}
 
 div > .pe{
     margin-top: 10px;
