@@ -89,10 +89,27 @@ p{
    
 }
 
+@media screen and (max-width: 414px){
+    body{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;   
+    }
 
+    .container{
+        width: 386px;
+        height: 780px;
+        padding: -10px;
+        margin-top: 10px;
+        margin-left: -60px;
+        background-color: lightblue;
+    }
 
-
-
+    .link{
+        margin-top: 20%;
+        margin-left: 10px;
+    }
+}
 
 
 
