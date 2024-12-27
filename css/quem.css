@@ -122,4 +122,16 @@ a{
     border-top: 1px solid #EB9F29;
 }
 
+@media screen and (max-width: 400px){
+    .sobre{
+        width: 300px;
+        height: 300px;
+        font-size: .8em;
+        padding: 8px;
+        margin: 10px;
+    }
+
+       
+}
+
 

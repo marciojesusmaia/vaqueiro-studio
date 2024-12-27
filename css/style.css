@@ -50,7 +50,7 @@ nav{
     padding: 5px;
     width: 50px;
     height: 50px;
-    
+
 }
 
 h1{
@@ -94,6 +94,12 @@ header > p{
 
 .anima{
     animation: anima 2s ease infinite;
+}
+
+.anima:hover{
+    color: white;
+    animation: none;
+    transition: none;
 }
 
 .cabeca > a:hover{
@@ -176,6 +182,16 @@ grandes telas acima de 1200px
         
             transform: none;
         }
+
+        .scissor{
+            background-color: #EB9F29;
+            color: black;
+            border-radius: 50%;
+            padding: 5px;
+            width: 50px;
+            height: 50px;
+            
+        }
 }
 
 @media screen and (min-width: 400px) and (max-width: 768px){
@@ -192,4 +208,13 @@ grandes telas acima de 1200px
         transform: none;
     }
     
+    .scissor{
+        background-color: #EB9F29;
+        color: black;
+        border-radius: 50%;
+        padding: 5px;
+        width: 50px;
+        height: 50px;
+        
+    }
 }
